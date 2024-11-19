@@ -4,10 +4,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node src/index.js",
     "dev": "node --watch src/index.js",
     "bdd": "node_modules/.bin/json-server --watch db.json --port 4000",
-    "start:all": "npm run bdd & npm run dev"
+    "start": "npm run bdd & npm run dev"
   },
   "keywords": [],
   "author": "",
