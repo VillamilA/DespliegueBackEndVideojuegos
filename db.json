@@ -1,0 +1,155 @@
+{
+  "videojuegos": [
+    {
+      "id": "cec7",
+      "Videojuego": "Red Dead Redemption 2",
+      "Productora": "Rockstar",
+      "precio": "20.99"
+    },
+    {
+      "id": "090c",
+      "Videojuego": "Red Dead Redemption 2",
+      "Productora": "Rockstar",
+      "precio": "20.99"
+    },
+    {
+      "id": "c8dc",
+      "nombre": "Sombras de Quito",
+      "desarrollador": "Andes Games",
+      "genero": "Aventura",
+      "precio": 15.99,
+      "moneda": "USD",
+      "pais_origen": "Ecuador",
+      "descripcion": "Un juego de aventura inspirado en las leyendas urbanas de Quito.",
+      "disponible": true,
+      "metodos_pago": [
+        "Transferencia bancaria",
+        "PayPhone",
+        "Criptomonedas"
+      ]
+    },
+    {
+      "id": "5926",
+      "nombre": "Rescate Amazónico",
+      "desarrollador": "Selva Interactive",
+      "genero": "Educativo",
+      "precio": 9.99,
+      "moneda": "USD",
+      "pais_origen": "Ecuador",
+      "descripcion": "Explora la Amazonía ecuatoriana y aprende sobre su biodiversidad.",
+      "disponible": true,
+      "metodos_pago": [
+        "PayPhone",
+        "Tarjeta de crédito",
+        "Criptomonedas"
+      ]
+    },
+    {
+      "id": "3356",
+      "nombre": "Caminos del Sol",
+      "desarrollador": "Inka Games",
+      "genero": "RPG",
+      "precio": 19.99,
+      "moneda": "USD",
+      "pais_origen": "Ecuador",
+      "descripcion": "Un RPG basado en la mitología andina.",
+      "disponible": true,
+      "metodos_pago": [
+        "Transferencia bancaria",
+        "PayPhone"
+      ]
+    },
+    {
+      "id": "d453",
+      "nombre": "Cyberpunk 2077",
+      "desarrollador": "CD Projekt Red",
+      "genero": "Acción",
+      "precio": 59.99,
+      "moneda": "USD",
+      "pais_origen": "Polonia",
+      "descripcion": "Un juego de rol de acción en un mundo futurista y distópico.",
+      "disponible": false,
+      "metodos_pago": [
+        "Tarjeta de crédito",
+        "Tarjeta Debito",
+        " Transferencia Bancaria"
+      ]
+    },
+    {
+      "id": "782c",
+      "nombre": "Leyendas de los Andes",
+      "desarrollador": "Quilla Games",
+      "genero": "Estrategia",
+      "precio": 12.49,
+      "moneda": "USD",
+      "pais_origen": "Ecuador",
+      "descripcion": "Juego de estrategia basado en las culturas precolombinas de los Andes.",
+      "disponible": true,
+      "metodos_pago": [
+        "PayPhone",
+        "Transferencia bancaria",
+        "Tarjeta Credito",
+        "Tarjeta Debito"
+      ]
+    },
+    {
+      "id": "0f22",
+      "nombre": "Grand Theft Auto V",
+      "desarrollador": "Rockstar Games",
+      "genero": "Acción",
+      "precio": 29.99,
+      "moneda": "USD",
+      "pais_origen": "Estados Unidos",
+      "descripcion": "Un juego de mundo abierto con una narrativa impactante y acción sin límites.",
+      "disponible": true,
+      "metodos_pago": [
+        "Tarjeta de crédito",
+        "Criptomonedas",
+        "Transferencia Bancaria",
+        "Tarjeta Debito"
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": "ceb0",
+      "nombre": "Angel Villamil",
+      "email": "angel.villamil@example.com",
+      "rol": "Administrador",
+      "activo": true
+    },
+    {
+      "id": "f58b",
+      "nombre": "Richard Robalino",
+      "email": "richard.robalino@example.com",
+      "rol": "Usuario",
+      "activo": true,
+      "metodos_pago_preferidos": [
+        "PayPhone",
+        "Tarjeta de crédito"
+      ]
+    },
+    {
+      "id": "4d3b",
+      "nombre": "Christian Marquez",
+      "email": "christian.marquez@example.com",
+      "rol": "Usuario",
+      "activo": true,
+      "metodos_pago_preferidos": [
+        "Transferencia bancaria",
+        "PayPhone"
+      ]
+    },
+    {
+      "id": "b1e9",
+      "nombre": "Angelo",
+      "email": "angelo@example.com",
+      "rol": "Usuario",
+      "activo": false,
+      "metodos_pago_preferidos": [
+        "Criptomonedas",
+        "Tarjeta de crédito"
+      ]
+    }
+  ]
+}
