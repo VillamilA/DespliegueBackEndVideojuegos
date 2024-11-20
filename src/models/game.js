@@ -1,7 +1,7 @@
 const GameModel ={
 
      async getAllGameModel() { //creamos un modelo que se conecta a la base de datos y nos da una respuesta a la petición
-        const peticion= await fetch("http://localhost:3000/videojuegos")
+        const peticion= await fetch("http://localhost:4000/videojuegos")
         const games = await peticion.json()
         return games
     },
